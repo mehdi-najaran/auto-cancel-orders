@@ -1,0 +1,54 @@
+/* Plugin Settings Page Styles */
+section {
+    padding: 1px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    vertical-align: middle;
+    padding: 10px 0;
+}
+
+#submit{
+    padding: 5px 15px !important;
+}
+
+.notice {
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.notice-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.notice-warning {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #856404;
+}
+
+.notice-error {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+input[type="number"] {
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Add more custom styles if needed */

@@ -1,0 +1,99 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Auto Cancel Orders\n"
+"POT-Creation-Date: 2023-07-18 13:32+0330\n"
+"PO-Revision-Date: 2023-07-18 13:30+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: auto-cancel-orders.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin.php:11 includes/admin.php:49
+msgid ""
+"Auto Cancel Orders plugin requires WooCommerce to be active. Please activate "
+"WooCommerce to use this plugin."
+msgstr ""
+
+#: includes/admin.php:25 includes/admin.php:26 includes/admin.php:56
+msgid "Cancel Orders"
+msgstr ""
+
+#: includes/admin.php:40
+msgid "Manually triggered cancellation process completed."
+msgstr ""
+
+#: includes/admin.php:44
+msgid "Settings saved successfully."
+msgstr ""
+
+#: includes/admin.php:63
+msgid "Auto Cancel All Orders"
+msgstr ""
+
+#: includes/admin.php:64
+msgid ""
+"Click the button below to manually trigger the cancellation process for "
+"pending orders that are past the specified duration of pending payment."
+msgstr ""
+
+#: includes/admin.php:65
+#, php-format
+msgid "There are currently %d orders in pending payment status."
+msgstr ""
+
+#: includes/admin.php:68
+msgid "Cancel Pending Orders"
+msgstr ""
+
+#: includes/admin.php:92
+msgid "Auto Cancel Orders Settings"
+msgstr ""
+
+#: includes/admin.php:99
+msgid "Time (in hours)"
+msgstr ""
+
+#: includes/admin.php:110
+msgid "Set the auto cancel time for pending orders in hours."
+msgstr ""
+
+#: includes/cron.php:24
+msgid ""
+"Order automatically cancelled after a specified duration of pending payment."
+msgstr ""
+
+#: includes/cron.php:34
+msgid "Every 5 Minutes"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Auto Cancel Orders"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Automatically cancels WooCommerce orders after the specified duration in "
+"\"pending payment\" status. Provides an option for the admin to manually "
+"trigger the cancellation process for existing orders."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mehdi Najaran"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://mehdi-najaran.ir/"
+msgstr ""
